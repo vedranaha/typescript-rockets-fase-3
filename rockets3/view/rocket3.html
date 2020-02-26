@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    <link rel="stylesheet" href="style.css">
+    <title>Rockets - Fase 3</title>
+</head>
+<body>
+    <div class = "container content"  >  
+        <section id="infoRocket" >
+        <h2>Rockets information <i class="fa fa-rocket"></i> </h2>
+        <button class="btn" id="create-rocket" type="submit" onclick="showRockets()">Create rockets</button>       
+        </section> 
+        <section>
+        <button class="btn hide" id="accelerate-rocket1" type="submit" onclick="accelerateRocket(rocket1)">accelerate rocket 1</button>
+        <button class="btn hide" id="brake-rocket1" type="submit" onclick="brakeRocket(rocket1)">brake rocket 1</button>
+        <button class="btn hide" id="accelerate-rocket2" type="submit" onclick="accelerateRocket(rocket2)">accelerate rocket 2</button>
+        <button class="btn hide" id="brake-rocket2" type="submit" onclick="brakeRocket(rocket2)">brake rocket 2</button>            
+        </section>
+    </div>
+   
+<script src="../models/rocket.js"></script>
+<script src="../models/thruster.js"></script>
+<script src="../controllers/controller.js"></script>
+
+</body>
+</html>

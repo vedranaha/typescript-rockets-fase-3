@@ -1,0 +1,25 @@
+
+body{
+    text-align: center;
+    border-bottom: 1px solid #5614cf;
+    padding: 4%;
+    background-color: rgb(222, 223, 210);
+}
+h2{
+    color: #532dda;  
+    padding: 2%;
+}
+.btn {
+    border: 1px solid #340acc;
+    color: #340acc;
+    padding: 1%; 
+}
+.btn:hover {
+    color: rgb(114, 25, 107);
+}
+
+#infoRocket{
+    color: hsl(303, 68%, 47%);
+}
+.hide{display: none;}
+
